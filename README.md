@@ -18,6 +18,11 @@ Libraries involved
 * [jQuery](http://jquery.com)
 * [Backbone](documentcloud.github.com/backbone/)
 
+Credit
+-----
+
+...belongs with each library and its constributors, with a special nod to Dave Geddes' [AMD testing repository](https://github.com/geddesign/amd-testing).
+
 License
 -------
 
