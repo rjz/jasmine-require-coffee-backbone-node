@@ -31,8 +31,8 @@ for (key in jasmine) {
 // Test helper: set up a faux-DOM for running browser tests
 global.initDOM = function () {
 
-  	// Create a DOM
-  	jsdom = require('jsdom');
+	// Create a DOM
+	jsdom = require('jsdom');
 
 	// create a jQuery instance
 	jQuery = require('jquery').create();
@@ -43,7 +43,6 @@ global.initDOM = function () {
 
 	// Set up global references for DOMDocument+jQuery
 	global.document = window.document;
-	global.jQuery = global.$ = jQuery
 
 	// add addEventListener for coffeescript compatibility:
 	global.addEventListener = window.addEventListener
@@ -53,7 +52,7 @@ global.initDOM = function () {
 global.initBackbone = function () {
 
  	// Get a headless DOM ready for action
-  	global.initDOM();
+	global.initDOM();
 
 	// add Backbone to global namespace and tell it to use jQuery
 	global.Backbone = require('backbone');

@@ -6,7 +6,9 @@ Javascript test demonstration
 To bring node up to date and run test specs, using [npm](http://npmjs.org/), just issue:
 
     $ npm update
-	$ npm test
+    $ npm test
+
+[Original post here](http://blog.rjzaworski.com/2012/07/testing-with-node-jasmine-and-require-js-part-ii/)
 
 Libraries involved
 ------------------
@@ -21,9 +23,9 @@ Libraries involved
 Credit
 -----
 
-...belongs with each library and its constributors, with a special nod to Dave Geddes' [AMD testing repository](https://github.com/geddesign/amd-testing).
+...belongs with each library and its contributors, with a special nod to Dave Geddes' [AMD testing repository](https://github.com/geddesign/amd-testing).
 
 License
 -------
 
-The jquery.DOMDataSource plugin is released under the WTFPL License. You can read the license [here](http://sam.zoy.org/wtfpl/).
+This repository is released under the WTFPL License. You can read the license [here](http://sam.zoy.org/wtfpl/).
