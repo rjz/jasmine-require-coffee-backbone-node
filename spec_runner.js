@@ -56,7 +56,7 @@ global.initBackbone = function () {
 
 	// add Backbone to global namespace and tell it to use jQuery
 	global.Backbone = require('backbone');
-	global.Backbone.setDomLibrary(jQuery);
+	global.Backbone.$ = jQuery;
 }
 
 // require specs and run them with Jasmine as soon as they're loaded
